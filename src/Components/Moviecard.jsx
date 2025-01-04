@@ -1,6 +1,6 @@
 import React from "react";
 
-function Moviecard({ movie }) {
+export function Moviecard({ movie }) {
   function onLike() {
     alert("Clicked");
   }
@@ -21,5 +21,3 @@ function Moviecard({ movie }) {
     </div>
   );
 }
-
-export default Moviecard;
