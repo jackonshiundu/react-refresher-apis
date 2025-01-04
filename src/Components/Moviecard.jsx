@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/MovieCard.css";
 
 export function Moviecard({ movie }) {
   function onLike() {

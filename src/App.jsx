@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import "./css/App.css";
 import Home from "./Pages/Home";
 import { Route, Routes } from "react-router-dom";
 import Favorites from "./Pages/Favourites";
