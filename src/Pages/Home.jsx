@@ -65,7 +65,7 @@ function Home() {
             /*               movie.title.toLowerCase().includes(searchQuery) && (
                 <Moviecard movie={movie} index={movie.id} />
                 ) */
-            <Moviecard movie={movie} index={movie.id} />
+            <Moviecard movie={movie} key={movie.id} />
           ))}
         </div>
       )}
